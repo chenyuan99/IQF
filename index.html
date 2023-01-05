@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IQF</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--    <script src="main.js"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <style>
+        .card-horizontal {
+            display: flex;
+            flex: 1 1 auto;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light border-bottom" style="background-color: white;">
+    <div class="container">
+        <a class="navbar-brand" href="/">Introduction to Quantitative Finance Course</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <form class="form-inline" action="/search/" method="get">
+                    <input class="form-control mr-sm-2" name="q" type="text" placeholder="Search...">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </ul>
+
+            </ul>
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="active">
+                    <a class="nav-link" href="/"></span> <i class="bi-house"></i>Home</a>
+                </li>
+                <a class="nav-link" href="/paperclips"></span><i class="bi-list"></i> Toolbox</a>
+
+                <li><a class="nav-link" href="/login"><i class="bi-person-circle"></i> Fall 2020</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Introduction to Quantitative Finance Course</h1>
+            <p class="lead text-muted">Instructor: Dr. Frédéric Godin</p>
+        </div>
+    </section>
+
+    <div class="card">
+        <div class="card-horizontal">
+            <div class=" embed-responsive embed-responsive-16by9" style="width: 18rem;">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-horizontal">
+            <div class=" embed-responsive embed-responsive-16by9" style="width: 18rem;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k3eIq17PwPY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">IQF Chapter 1 Part1</h4>
+                <p class="card-text">Financial derivatives, forward & futures contracts, no-arbitrage pricing</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
